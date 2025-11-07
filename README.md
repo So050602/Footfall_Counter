@@ -1,6 +1,7 @@
 Footfall Counter Using YOLOv5 and Centroid Tracking
 
 Project Overview
+
 This project presents a practical computer vision solution for counting foot traffic using video input. It employs the highly accurate YOLOv5 model for human detection and a lightweight centroid-based tracker to persistently identify individuals across frames and count their crossings over a designated Region of Interest (ROI).
 
 Methodology
@@ -14,4 +15,5 @@ Methodology
     Adjustable Parameters: Key parameters such as detection confidence and ROI line position were fine-tuned to optimize performance for the test environment.
 
 Results
+
 The solution accurately detects and tracks individuals in video streams, delivering reliable counts of entries and exits. Visual overlays ensure results are interpretable and verifiable. Although performance may vary under extreme crowding, the system is robust in typical conditions and readily adaptable to other settings.
